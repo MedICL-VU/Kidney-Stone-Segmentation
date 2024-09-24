@@ -1,0 +1,17 @@
+exps
+summaries
+results
+data
+train_imgs
+deployment
+kidneystoneCVdata
+*pycache*
+.idea
+.DS_Store
+.vscode
+out_vid/
+input_vid/
+INTERRUPTED.pth
+runs/
+.directory
+.yaml
