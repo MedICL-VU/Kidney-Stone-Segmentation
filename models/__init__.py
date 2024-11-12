@@ -2,7 +2,6 @@ import logging
 import torch
 import segmentation_models_pytorch as smp
 from models.unext import UNext, UNext_S
-from models.unet import UNet
 import torch.nn as nn
 
 
@@ -37,8 +36,6 @@ def get_net(args, device):
 		net = UNext(num_classes=1, img_size=args.height)
 	elif args.net.lower() == 'unexts':
 		net = UNext_S(num_classes=1, img_size=args.height)
-	elif args.net.lower() == 'unet_custom':
-		net = UNet(n_channels=3, n_classes=1)
 	else:
 		raise ValueError('Unknown model type: %s', args.net)
 
