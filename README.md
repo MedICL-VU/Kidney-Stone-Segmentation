@@ -14,13 +14,6 @@ Ekamjit S. Deol (co)<sup>1</sup>, Daiwei Lu (co)<sup>2</sup>, Tatsuki Koyama<sup
 
 Submitted to JEndourology 2024
 
----
-
-Adapted from Stone Annotation paper
-
-```
-Stoebner, Zachary A., Daiwei Lu, Seok Hee Hong, Nicholas L. Kavoussi, and Ipek Oguz. "Segmentation of kidney stones in endoscopic video feeds." In Medical Imaging 2022: Image Processing, vol. 12032, pp. 900-908. SPIE, 2022.
-```
 
 ---
 
