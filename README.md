@@ -6,7 +6,7 @@ Ekamjit S. Deol (co)<sup>1</sup>, Daiwei Lu (co)<sup>2</sup>, Tatsuki Koyama<sup
 
 <sup>1</sup> Saint Louis University School of Medicine, St Louis, MO, USA 
 
-<sup>2</sup> Department of Electrical Engineering and Computer Science, Vanderbilt University, Nashville, TN, USA 
+<sup>2</sup> Department of Computer Science, Vanderbilt University, Nashville, TN, USA 
 
 <sup>3</sup> Department of Biostatistics, Vanderbilt University, Nashville, TN, USA 
 
@@ -108,6 +108,18 @@ python ../<phase>.py [--<argument name> <arg value> ...]
 python scripts/<script>.py [--<argument name> <arg value> ...]
 ```
 
+---
+### Models
+
+The following models are available for training and testing:
+
+* UNet ([Ronneberger et al., 2015](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28))
+* UNet++ ([Zhou et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC7329239/))
+* UNeXt ([Valanarasu et al., 2022](https://arxiv.org/pdf/2203.04967))
+
+
+We use implementations of UNet and Unet++ using the [segmentation_models_pytorch](https://github.com/qubvel-org/segmentation_models.pytorch) library under the MIT license.
+The code used for UNeXt is available [here](https://github.com/jeya-maria-jose/UNeXt-pytorch) under the MIT license.
 ---
 
 ## Troubleshooting

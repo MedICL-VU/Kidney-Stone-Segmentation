@@ -1,5 +1,5 @@
 """ Full assembly of the parts to form the complete network
-    Taken from https://github.com/milesial/Pytorch-UNet/
+    from https://github.com/milesial/Pytorch-UNet/
 """
 
 import torch
